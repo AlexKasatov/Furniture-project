@@ -1,0 +1,81 @@
+@import url(reset.css);
+html {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+.header {
+  display: flex;
+  height: 160px;
+  background-color: #ffe138;
+}
+
+.logo {
+  margin: auto;
+  font-size: 3rem;
+}
+
+.container {
+  margin: 70px auto;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-flow: row wrap;
+}
+
+.column {
+  margin: 20px auto;
+  /* margin-bottom: 20px; */
+  height: 100%;
+  min-width: 300px;
+  width: calc((100% - 200px) / 3);
+  box-sizing: border-box;
+  border: 1px solid #000000;
+}
+
+.img-1 {
+  background-image: url(../img/Meta-Side-Table.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100%;
+}
+
+.img-2 {
+  background-image: url(../img/Click-Shelf.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100%;
+}
+
+.img-3 {
+  background-image: url(../img/Float-Shelf.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100%;
+}
+
+.img-description {
+  padding: 33px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 33px;
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+.footer {
+  background-color: #ffe138;
+  display: flex;
+  height: 160px;
+}
+
+.date {
+  margin: auto;
+  font-size: 3rem;
+}
