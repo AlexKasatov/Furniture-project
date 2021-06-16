@@ -20,7 +20,7 @@ html {
   width: 80vw;
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -38,21 +38,21 @@ html {
   background-image: url(../img/Meta-Side-Table.png);
   background-size: cover;
   background-position: center;
-  padding-top: 100%;
+  padding-top: 150%;
 }
 
 .img-2 {
   background-image: url(../img/Click-Shelf.png);
   background-size: cover;
   background-position: center;
-  padding-top: 100%;
+  padding-top: 150%;
 }
 
 .img-3 {
   background-image: url(../img/Float-Shelf.png);
   background-size: cover;
   background-position: center;
-  padding-top: 100%;
+  padding-top: 150%;
 }
 
 .img-description {
